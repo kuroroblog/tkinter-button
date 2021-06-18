@@ -18,7 +18,7 @@ class Application(tk.Frame):
         # frameについて : https://kuroro.blog/python/P20XOidA5nh583fYRvxf/
         frame = tk.Frame(self.master)
 
-        # Windowを親要素とした場合に、frame Widgetをどのように配置するのか?
+        # Windowを親要素とした場合に、frame Widget(Frame)をどのように配置するのか?
         # packについて : https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/
         frame.pack()
 
@@ -26,8 +26,7 @@ class Application(tk.Frame):
         # text : テキスト情報
         # width : 幅の設定
         # height : 高さの設定
-        button = tk.Button(frame, text="button",
-                         width=10, height=5)
+        button = tk.Button(frame, text="button", width=10, height=5)
 
         # frame Widget(Frame)を親要素とした場合に、button Widgetをどのように配置するのか?
         # packについて : https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/
@@ -37,6 +36,7 @@ class Application(tk.Frame):
 if __name__ == "__main__":
     root = tk.Tk()
     app = Application(master=root)
+
     # Windowをループさせて、継続的にWindow表示させる。
     # mainloopについて : https://kuroro.blog/python/DmJdUb50oAhmBteRa4fi/
     app.mainloop()

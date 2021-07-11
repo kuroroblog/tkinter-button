@@ -15,7 +15,7 @@ class Application(tk.Frame):
         self.master.geometry("300x200")
 
         # Windowを親要素として、frame Widget(Frame)を作成する。
-        # frameについて : https://kuroro.blog/python/P20XOidA5nh583fYRvxf/
+        # Frameについて : https://kuroro.blog/python/P20XOidA5nh583fYRvxf/
         frame = tk.Frame(self.master)
 
         # Windowを親要素とした場合に、frame Widget(Frame)をどのように配置するのか?
@@ -31,6 +31,7 @@ class Application(tk.Frame):
         # frame Widget(Frame)を親要素とした場合に、button Widgetをどのように配置するのか?
         # packについて : https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/
         button.pack()
+
 
 # Tkinter初学者参考 : https://docs.python.org/ja/3/library/tkinter.html#a-simple-hello-world-program
 if __name__ == "__main__":

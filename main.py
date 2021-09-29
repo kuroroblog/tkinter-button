@@ -26,12 +26,13 @@ class Application(tk.Frame):
         # text : テキスト情報
         # width : 幅の設定
         # height : 高さの設定
-        button = tk.Button(frame, text="button", width=10, height=5)
+        # foreground : テキスト色の設定
+        # 色について : https://kuroro.blog/python/YcZ6Yh4PswqUzaQXwnG2/
+        button = tk.Button(frame, text="PUSH !", width=10, height=3, foreground='#fff')
 
         # frame Widget(Frame)を親要素とした場合に、button Widgetをどのように配置するのか?
         # packについて : https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/
         button.pack()
-
 
 # Tkinter初学者参考 : https://docs.python.org/ja/3/library/tkinter.html#a-simple-hello-world-program
 if __name__ == "__main__":

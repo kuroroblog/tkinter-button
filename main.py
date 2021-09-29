@@ -24,8 +24,8 @@ class Application(tk.Frame):
 
         # frame Widget(Frame)を親要素として、button Widgetを作成する。
         # text : テキスト情報
-        # width : 幅の設定
-        # height : 高さの設定
+        # width : ボタン幅の設定
+        # height : ボタンの高さ設定
         # foreground : テキスト色の設定
         # 色について : https://kuroro.blog/python/YcZ6Yh4PswqUzaQXwnG2/
         button = tk.Button(frame, text="PUSH !", width=10, height=3, foreground='#fff')
